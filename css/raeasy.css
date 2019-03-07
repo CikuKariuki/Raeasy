@@ -1,0 +1,25 @@
+h1{
+  font-style: italic;
+}
+img{
+  height: 380px;
+  width: 380px;
+  padding: 10px;
+  border-radius: 20px;
+}
+img:hover{
+  border: 5px solid black;
+  box-shadow: 5px 5px 8px blue;
+}
+.textover{
+  width: 200px;
+  height: 200px;
+  float:right;
+  margin: 4px;
+  background-size: 100%;
+  transition: 0.5s;
+  background-position: center;
+}
+.textover:hover{
+  background-size: 110%;
+}
