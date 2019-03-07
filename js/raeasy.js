@@ -1,7 +1,7 @@
 $("document").ready( function() {
  
     $("button.searchButton").hover(function(){
-        $(".searchTerm").toggle();
+        $(".searchTerm").fadeIn(3000);
       });
    
 });

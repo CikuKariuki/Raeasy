@@ -20,13 +20,14 @@
   border-radius: 5px;
   outline: none;
   color: #9DBFAF;
+  margin-top: 10px;
 }
 
-.searchTerm:hover {
+/* .searchTerm:hover {
   width:100%;
   padding:0 6px;
   
-}
+} */
 
 .searchTerm:focus{
   color: #00B4CC;
@@ -44,6 +45,7 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
+  margin-top: 10px;
 }
 
 /*Resize the wrap to see the search bar change!*/
