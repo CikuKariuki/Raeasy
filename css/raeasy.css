@@ -49,3 +49,10 @@ input[type=submit] {
   position: absolute;
   display:inline-block;
 }
+.p2, .signuppage{
+  display: none;
+}
+#black{
+  background-color: #000;
+  color: #fff;
+}
