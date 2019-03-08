@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap4.css"
+    <link rel="stylesheet" href="css/bootstrap4.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/raeasy.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -14,8 +14,13 @@
     <title> raeasy </title>
   </head>
   <body>
+<div class="container">
     <div class="p1" >
-      <div class="container">
+      <div class="container" id="page1">
+
+          <h1> raeasy </h1>
+        </div>
+
         <h1 class="heading1">Log In Page</h1><br>
         <form>
     <label for="uname"><b>Username</b></label>
@@ -61,21 +66,34 @@
 
   </div>
 
+  <div class="p2">
+    <div class="container" id="page2">
 
-   <div class="container">
-     <div class="p2">
+        <h1> raeasy </h1>
+      </div>
+
       <div class="wrap">
           <div class="search">
              <input type="text" class="searchTerm" placeholder="What are you looking for?">
              <button type="submit" class="searchButton">
-               <img src="img/icons8-search-24.png" alt="">
+               <img class="searchButton" src="img/icons8-search-24.png" alt="">
             </button>
           </div>
         </div>
-        <div class="carousel">
-        <div class="well">
 
-          <div id="myCarousel" class="carousel slide">
+        <div class="sidebar">
+        <a href="clothes.html">Clothes</a><br>
+        <a href="electronics.html">Electronics</a><br>
+        <a href="food.html">Food</a><br>
+        <a href="shoes.html">Shoes</a><br>
+        <a href="thrift.html">Thrift </a><br>
+        <a href="home-appliances.html">Home Appliances</a>
+
+        </div>
+
+        <div class="carousel">
+        
+          <div id="myCarousel" class="carousel-slide">
 
             <ol class="carousel-indicators">
               <li class="item1 active"></li>
@@ -90,7 +108,7 @@
             <div class="carousel-inner" role="listbox">
 
               <div class="item active">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHbj8ggDJySDv2SfQzuOl7oLSjZ-RVj6tgpuQsn5ij8tV2WqPd" alt="Online shopping" style="width:100%;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHbj8ggDJySDv2SfQzuOl7oLSjZ-RVj6tgpuQsn5ij8tV2WqPd" width="1000px">
                 <div class="carousel-caption">
                   <h3>online shopping</h3>
                   <p>Find what you love at the comfort of your sit and all you need is internet access.</p>
@@ -98,7 +116,7 @@
               </div>
 
               <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5_ZVzs88D9CKDOSOhnAvvWm1BV8JEX1wEvITkb6rED8hO0og5" alt="shoe stores" style="width:100%;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5_ZVzs88D9CKDOSOhnAvvWm1BV8JEX1wEvITkb6rED8hO0og5" width="100px">
                 <div class="carousel-caption">
                   <h3>Variety of shoes for all.</h3>
                   <p>find a beautiful shoe that you may like from various vendors.</p>
@@ -106,7 +124,7 @@
               </div>
 
               <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN3sFZG6NL9jtNR9bWb6tKNxF02YyNA6CnzV3gr5XMTsY2cbetOw" alt="thrift stores" style="width:100%;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN3sFZG6NL9jtNR9bWb6tKNxF02YyNA6CnzV3gr5XMTsY2cbetOw">
                 <div class="carousel-caption">
                   <h3>thrift shops and stores</h3>
                   <p>find clothes at a cheaper price.</p>
@@ -114,7 +132,7 @@
               </div>
 
               <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNGM57qfP0sAmLo_Dza7qZFuF_RgWLO5-8SDcB5-41wdhxzch7" alt="restaurants and fast food joints" style="width:100%;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNGM57qfP0sAmLo_Dza7qZFuF_RgWLO5-8SDcB5-41wdhxzch7">
                 <div class="carousel-caption">
                   <h3>tasty meals</h3>
                   <p>find a variety of hotels at the comfort of your home.</p>
@@ -122,7 +140,7 @@
               </div>
 
               <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ35naVFT24qHiuESrEIxH_HMIEEHxNGnMDMz8ysZsHkxeAVcLaw" alt="home appliances stores" style="width:100%;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ35naVFT24qHiuESrEIxH_HMIEEHxNGnMDMz8ysZsHkxeAVcLaw">
                 <div class="carousel-caption">
                   <h3>Home appliances</h3>
                   <p>Such a wide variety of home appliances for your house from washing machines to ovens and many more.</p>
@@ -130,7 +148,7 @@
               </div>
 
               <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgNBuVZ50ddjiSDvWLLMH6aiVCVUjAGtogPpiNno2VuzsHHCuR" alt="electronic appliances stores" style="width:100%;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgNBuVZ50ddjiSDvWLLMH6aiVCVUjAGtogPpiNno2VuzsHHCuR" >
                 <div class="carousel-caption">
                   <h3>Electrical appliances</h3>
                   <p>Amazing appliances electronic gadgets from various categorised shops and online sites.</p>
@@ -138,7 +156,7 @@
               </div>
 
               <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFv5mEzzujEgaumDzCb5hVOeVdVnUIuQLpteqelr5cxtmRFfy" alt="clothes" style="width:100%;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFv5mEzzujEgaumDzCb5hVOeVdVnUIuQLpteqelr5cxtmRFfy" >
                 <div class="carousel-caption">
                   <h3>clothes</h3>
                   <p>change the look of your wadrobe.</p>
@@ -156,13 +174,14 @@
         </div>
 </div>
 </div>
+</div>
 
-<div class="well" id="black">
+<div class="panel" id="black">
 <div style="text-align:center">
  <h2>Contact Us</h2>
  <p>Your feedback would indeed be of great help!:</p>
 </div>
-   <form action="/action_page.php">
+   <form>
      <label for="fname">First Name</label>
      <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
      <label for="emailA">E-mail address</label>
@@ -172,6 +191,7 @@
      <input type="submit" value="Submit">
    </form>
  </div>
+
 </div>
 </div>
 </div>
