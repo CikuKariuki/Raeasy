@@ -1,10 +1,22 @@
+body {
+  background-image: linear-gradient(to right, red , yellow);
+}
 .carousel {
+  width:80%;
   float: right;
-  position: relative;
-  width: 700px;
-  height: 50px;
+  /* float: right; */
+  /* position: relative; */
+  /* width: 150%;
+  height: 50px; */
   /* display:flex;
   flex-direction: row-reverse */
+}
+.carousel img{
+  height:300px;
+}
+.hero img{
+  width:30%;
+  height: 500px;
 }
 * {
   box-sizing: border-box;
@@ -27,6 +39,10 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+}
+#font2 {
+  font-size: 80px;
+  text-align: center;
 }
 .carousel-inner {
   width: 50px
@@ -89,3 +105,16 @@ img:hover{
   border 2px solid black;
   box-shadow: 4px 6px 8px #00acc1;
 } */
+.images {
+  height: 380px;
+  width: 380px;
+  border-radius: 20px;
+}
+.images:hover {
+  height: 380px;
+  border:2px solid black;
+  box-shadow:5px 8px 5px #lightblue;
+}
+#fonts{
+  font-size: 80px;
+}

@@ -12,24 +12,36 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
       <script src="js/raeasy.js"></script>
     <title> raeasy </title>
+    <style media="screen">
+      .input{
+        margin: 20px;
+        border-radius: 2px;
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+      }
+      .input:hover{
+        transform: scale(1.2);
+        transition: .2s ease-in-out;
+      }
+    </style>
   </head>
   <body>
-<div class="container">
+<div class="container"style="text-align:center">
     <div class="p1" >
       <div class="container" id="page1">
 
-          <h1> raeasy </h1>
+          <h1 id="fonts"><i><b> ra</b>easy</i> </h1>
         </div>
 
         <h1 class="heading1">Log In Page</h1><br>
         <form>
     <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" id="uname" required><br>
+    <input class="input" type="text" placeholder="Enter Username" id="uname" required><br>
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" id="psw" required><br>
+    <input class="input" type="password" placeholder="Enter Password" id="psw" required><br>
 
-    <button type="submit" id="login">Login</button>
+    <button type="submit" id="login" class="">Login</button>
     <button type="button" class="cancelbtn">Cancel</button><br>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me<br>
@@ -69,15 +81,15 @@
   <div class="p2">
     <div class="container" id="page2">
 
-        <h1> raeasy </h1>
+        <h1 id="font2"><i><b> ra</b>easy</i> </h1>
       </div>
 
       <div class="wrap">
-          <div class="search">
+          <div class="search" style="position:fixed; margin-top:-50px;">
              <input type="text" class="searchTerm" placeholder="What are you looking for?">
-             <button type="submit" class="searchButton">
-               <img class="searchButton" src="img/icons8-search-24.png" alt="">
-            </button>
+             <!-- <button type="submit" class="searchButton"> -->
+               <img class="searchButton" src="img/icons8-search-24.png" alt="" style="z-index:2">
+            <!-- </button> -->
           </div>
         </div>
 
@@ -91,97 +103,61 @@
 
         </div>
 
-        <div class="carousel">
-        
-          <div id="myCarousel" class="carousel-slide">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
 
-            <ol class="carousel-indicators">
-              <li class="item1 active"></li>
-              <li class="item2"></li>
-              <li class="item3"></li>
-              <li class="item4"></li>
-              <li class="item5"></li>
-              <li class="item6"></li>
-              <li class="item7"></li>
-            </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
 
-            <div class="carousel-inner" role="listbox">
-
-              <div class="item active">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHbj8ggDJySDv2SfQzuOl7oLSjZ-RVj6tgpuQsn5ij8tV2WqPd" width="1000px">
-                <div class="carousel-caption">
-                  <h3>online shopping</h3>
-                  <p>Find what you love at the comfort of your sit and all you need is internet access.</p>
-                </div>
-              </div>
-
-              <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5_ZVzs88D9CKDOSOhnAvvWm1BV8JEX1wEvITkb6rED8hO0og5" width="100px">
-                <div class="carousel-caption">
-                  <h3>Variety of shoes for all.</h3>
-                  <p>find a beautiful shoe that you may like from various vendors.</p>
-                </div>
-              </div>
-
-              <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN3sFZG6NL9jtNR9bWb6tKNxF02YyNA6CnzV3gr5XMTsY2cbetOw">
-                <div class="carousel-caption">
-                  <h3>thrift shops and stores</h3>
-                  <p>find clothes at a cheaper price.</p>
-                </div>
-              </div>
-
-              <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNGM57qfP0sAmLo_Dza7qZFuF_RgWLO5-8SDcB5-41wdhxzch7">
-                <div class="carousel-caption">
-                  <h3>tasty meals</h3>
-                  <p>find a variety of hotels at the comfort of your home.</p>
-                </div>
-              </div>
-
-              <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ35naVFT24qHiuESrEIxH_HMIEEHxNGnMDMz8ysZsHkxeAVcLaw">
-                <div class="carousel-caption">
-                  <h3>Home appliances</h3>
-                  <p>Such a wide variety of home appliances for your house from washing machines to ovens and many more.</p>
-                </div>
-              </div>
-
-              <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgNBuVZ50ddjiSDvWLLMH6aiVCVUjAGtogPpiNno2VuzsHHCuR" >
-                <div class="carousel-caption">
-                  <h3>Electrical appliances</h3>
-                  <p>Amazing appliances electronic gadgets from various categorised shops and online sites.</p>
-                </div>
-              </div>
-
-              <div class="item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFv5mEzzujEgaumDzCb5hVOeVdVnUIuQLpteqelr5cxtmRFfy" >
-                <div class="carousel-caption">
-                  <h3>clothes</h3>
-                  <p>change the look of your wadrobe.</p>
-                </div>
-              </div>
-
-          <a class="left carousel-control" href="#myCarousel" role="button">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" role="button">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+        <div class="item active">
+          <img src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3></h3>
+            <p>A view of the various products from different stores!</p>
+          </div>
         </div>
-</div>
-</div>
+
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1523194258983-4ef0203f0c47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Chicago" style="width:100%;">
+          <div class="carousel-caption">
+            <h3></h3>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1520006403909-838d6b92c22e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="New York" style="width:100%;">
+          <div class="carousel-caption">
+            <h3></h3>
+            <p></p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 </div>
 
-<div class="panel" id="black">
+<div class="panel col-md-12" id="black" style="margin-left:20px;" >
 <div style="text-align:center">
- <h2>Contact Us</h2>
+ <h2 style="">Contact Us</h2>
  <p>Your feedback would indeed be of great help!:</p>
 </div>
-   <form>
+   <form style="">
      <label for="fname">First Name</label>
      <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
      <label for="emailA">E-mail address</label>
