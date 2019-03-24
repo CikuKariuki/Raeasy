@@ -45,8 +45,8 @@ input[type=submit] {
   text-align: center;
 }
 .carousel-inner {
-  width: 50px
-  height:400px
+  width: 50px;
+  height:400px;
   position:relative;
   background-color: #333;
 }
@@ -68,9 +68,6 @@ input[type=submit] {
   font-size: 16px
 
 } */
-.p2, .signuppage{
-  display: none;
-}
 #black{
   background-color: #000;
   color: #fff;
@@ -89,22 +86,9 @@ input[type=submit] {
   height: 100%;
   overflow: auto;
 }
-/* .p1 {
-  height: 100%;
-} */
-
 .carousel-slide {
   position: relative;
 }
-/* img{
-  height: 300px;
-  width: 300px;
-  border-radius: 20px;
-}
-img:hover{
-  border 2px solid black;
-  box-shadow: 4px 6px 8px #00acc1;
-} */
 .images {
   height: 380px;
   width: 380px;
@@ -113,7 +97,7 @@ img:hover{
 .images:hover {
   height: 380px;
   border:2px solid black;
-  box-shadow:5px 8px 5px #lightblue;
+  box-shadow:5px 8px 5px lightblue;
 }
 #fonts{
   font-size: 80px;
