@@ -1,6 +1,3 @@
-body {
-  background-image: linear-gradient(to right, red , yellow);
-}
 .carousel {
   width:80%;
   float: right;
@@ -96,8 +93,6 @@ input[type=submit] {
 }
 .images:hover {
   height: 380px;
-  border:2px solid black;
-  box-shadow:5px 8px 5px lightblue;
 }
 #fonts{
   font-size: 80px;
