@@ -1,99 +1,19 @@
-.carousel {
-  width:80%;
-  float: right;
-  /* float: right; */
-  /* position: relative; */
-  /* width: 150%;
-  height: 50px; */
-  /* display:flex;
-  flex-direction: row-reverse */
+body{
+  overflow-x: hidden;
 }
-.carousel img{
-  height:300px;
+#font2{
+  font-size: 50px;
 }
-.hero img{
-  width:30%;
-  height: 500px;
+.nav-link{
+  font-size: 15px;
+  margin-top: 20px;
+  margin: 5px;
 }
-* {
-  box-sizing: border-box;
+.d-block{
+  height: 550px;
+  margin-top: 0px;
+  font-family: 'Lobster', cursive;
 }
-/* .well {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-  position:relative;
-  width: 20px
-  height: 40px
-
-} */
-.searchTerm:focus{
-  color: #00B4CC;
-}
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-#font2 {
-  font-size: 80px;
-  text-align: center;
-}
-.carousel-inner {
-  width: 50px;
-  height:400px;
-  position:relative;
-  background-color: #333;
-}
-.carousel-inner .carousel {
-  padding:8px
-}
-.carousel-inner .carousel > div {
-  height: 10px;
-  width: 10px
-}
-/* .container {
-  display: list-item;
-  position: fixed;
-  z-index: 20;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  font-style: italic;
-  font-size: 16px
-
-} */
-#black{
-  background-color: #000;
-  color: #fff;
-  background-color: #333;
-  margin-left: 20%;
-  margin-top: 50%
-  /* position: absolute;
-  display:inline-block; */
-}
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-.carousel-slide {
-  position: relative;
-}
-.images {
-  height: 380px;
-  width: 380px;
-  border-radius: 20px;
-}
-.images:hover {
-  height: 380px;
-}
-#fonts{
-  font-size: 80px;
+.navbar{
+  background-color: #FF7043;
 }
